@@ -7,7 +7,8 @@
   </head>
   <body>
     <button onclick="toggleVisibility()">Toggle Visibility</button>
-    <!-- TODO: Skapa ett element som visas/döljs när knappen klickas på -->
+    <p id="toggleElement">This text can be shown or hidden.</p>
+
   </body>
 
   <script>
@@ -15,6 +16,7 @@
       var element = document.getElementById("toggleElement");
       element.style.display =
         element.style.display === "none" ? "block" : "none";
+
     }
   </script>
 </html>
